@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   const scrollToProjects = () => {
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -41,8 +44,9 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               className="border-border hover:bg-secondary/50 transition-smooth"
+              onClick={() => navigate('/curriculo')}
             >
-              Download CV
+              Ver Currículo
             </Button>
           </div>
           
