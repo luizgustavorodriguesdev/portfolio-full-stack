@@ -1,3 +1,4 @@
+
 import { Code, Database, BarChart3, Palette, Server, Globe } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
@@ -5,38 +6,38 @@ const skills = [
   {
     icon: Code,
     title: "PHP",
-    description: "Desenvolvimento backend robusto com Laravel e frameworks modernos",
+    description: "Desenvolvimento backend com Laravel e frameworks modernos",
     level: 85
   },
   {
     icon: Globe,
     title: "JavaScript",
-    description: "Aplicações interativas com ES6+, React e Node.js",
+    description: "Aplicações interativas com ES6+,Vuejs, React e Node.js",
     level: 80
   },
   {
     icon: Palette,
     title: "CSS",  
-    description: "Design responsivo com Tailwind, SCSS e animações avançadas",
+    description: "Design responsivo com Tailwind, Bootstrap,SCSS e animações avançadas",
     level: 85
   },
   {
     icon: Database,
     title: "Banco de Dados",
     description: "MySQL, PostgreSQL e otimização de consultas complexas",
-    level: 75
+    level: 95
   },
   {
     icon: BarChart3,
     title: "Power BI",
     description: "Dashboards interativos e análise de dados empresariais",
-    level: 70
+    level: 85
   },
   {
     icon: Server,
     title: "DevOps",
-    description: "Docker, Git e deploy em servidores Linux",
-    level: 65
+    description: "Desenvolvimento com sites,landing pages,lojas virtuais, Wordpress,Woocommerce.",
+    level: 95
   }
 ];
 

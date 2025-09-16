@@ -2,53 +2,63 @@ import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import managementSystem from "@/assets/project-management-system.jpg";
-import analyticsDashboard from "@/assets/analytics-dashboard.jpg";
-import ecommerceSite from "@/assets/ecommerce-site.jpg";
-import biReports from "@/assets/bi-reports.jpg";
+import campoDourado from "@/assets/campodourado.png";
+import aedodonto from "@/assets/aedodonto.png";
+import odontonaves from "@/assets/odontonaves.png";
+import solar from "@/assets/solar.png";
+import safetech from "@/assets/SAFETECH.png";
 
 const projects = [
   {
-    title: "Sistema de Gestão Empresarial",
-    description: "Sistema completo desenvolvido em PHP com Laravel para gestão de estoque, vendas e relatórios. Interface moderna com Vue.js e integração com Power BI.",
-    tech: ["PHP", "Laravel", "Vue.js", "MySQL", "Power BI"],
-    image: managementSystem,
-    category: "Web Development",
+    title: "Campo Dourado",
+    description: "Desenvolvimento de site institucional responsivo em WordPress para a Campo Dourado Consultoria, empresa especializada em soluções para o setor agrícola, com foco na superação do déficit de armazenamento de grãos no Brasil. O projeto priorizou uma navegação intuitiva, design moderno e comunicação clara dos serviços e diferenciais da empresa, garantindo uma presença digital sólida e alinhada à identidade da marca.",
+    tech: ["PHP", "Wordpress", "JavaScript", "MySQL", "CSS"],
+    image: campoDourado,
+    category: "Desenvolvimento Web",
+    github: "#",
+    demo: "https://campodourado.agr.br"
+  },
+  {
+    title: "AeD Odontologia",
+    description: "Desenvolvimento de site institucional responsivo em WordPress para a A&D Januário Odontologia, clínica de referência nacional e internacional. O projeto foi planejado para transmitir a excelência dos serviços, destacando a alta tecnologia, a equipe qualificada e o ambiente diferenciado, garantindo uma experiência digital moderna e acessível em qualquer dispositivo.",
+    tech: ["PHP", "Wordpress", "JavaScript", "MySQL", "CSS"],
+    image: aedodonto,
+    category: "Desenvolvimento Web",
     github: "#",
     demo: "#"
   },
   {
-    title: "Dashboard Analytics",
-    description: "Painel interativo desenvolvido em JavaScript puro com D3.js para visualização de dados em tempo real. Integração com APIs REST e WebSocket.",
-    tech: ["JavaScript", "D3.js", "Node.js", "MongoDB", "Socket.io"],
-    image: analyticsDashboard,
-    category: "Analytics",
+    title: "OdontoNaves",
+    description: "Desenvolvimento de site institucional responsivo em WordPress + Elementor.Hospital Odontológico completou 12 anos em 2023. Mas nossa história tem mais tempo. Iniciamos nossa caminhada com o Dr. Mauricio e Drª Onilda Naves, há mais de 40 anos e a solidez e credibilidade de nossa marca",
+    tech: ["PHP", "Wordpress", "Elementor", "JavaScript", "MySQL", "CSS"],
+    image: odontonaves,
+    category: "Desenvolvimento Web",
     github: "#",
-    demo: "#"
+    demo: "https://odontonaves.com.br/"
   },
   {
-    title: "E-commerce Responsivo",
-    description: "Loja virtual completa com carrinho de compras, sistema de pagamento e painel administrativo. Design responsivo e otimizado para SEO.",
-    tech: ["PHP", "JavaScript", "CSS3", "MySQL", "Stripe API"],
-    image: ecommerceSite,
-    category: "E-commerce",
+    title: "Solar Material para Construção",
+    description: "Desenvolvimento de site institucional responsivo em Laravel + Vue.js + Bootstrap. A Solar Materiais para Construção iniciou as suas atividades em 1989, em uma modesta sala comercial localizada no Parque Industrial João Braz, região oeste de Goiânia.",
+    tech: ["PHP", "Laravel", "Vuejs", "Bootstrap", "JavaScript", "MySQL", "CSS"],
+    image: solar,
+    category: "Desenvolvimento Web",
     github: "#",
-    demo: "#"
+    demo: "https://solarmateriaisconstrucao.com.br/"
   },
   {
-    title: "Sistema de Relatórios BI",
-    description: "Plataforma de Business Intelligence com relatórios automatizados, KPIs dinâmicos e exportação para diversos formatos.",
-    tech: ["Power BI", "SQL Server", "Python", "Excel", "Power Query"],
-    image: biReports,
-    category: "Business Intelligence",
+    title: "SafeTech",
+    description: "Desenvolvimento de site institucional responsivo em Laravel + Vue.js + Bootstrap. Tecnologia e Segurança para Empresas Focadas em Performance Transformamos a infraestrutura de TI da sua empresa com soluções seguras, eficientes e inovadoras, permitindo que você concentre-se no essencial: o crescimento do seu negócio",
+    tech: ["PHP", "Laravel", "Vuejs", "Bootstrap", "JavaScript", "MySQL", "CSS"],
+    image: safetech,
+    category: "Desenvolvimento Web",
     github: "#",
-    demo: "#"
+    demo: "https://safe-tech.in/"
   }
 ];
 
 const filterCategories = [
   "Todos",
-  "Web Development", 
+  "Desenvolvimento Web", 
   "Analytics",
   "E-commerce",
   "Business Intelligence"
@@ -136,13 +146,17 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" className="hover:bg-secondary/50 transition-smooth">
-                    <Github className="h-4 w-4 mr-2" />
-                    Código
+                  <Button asChild variant="outline" size="sm" className="hover:bg-secondary/50 transition-smooth">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label={`Abrir código no GitHub de ${project.title}`}>
+                      <Github className="h-4 w-4 mr-2" />
+                      Código
+                    </a>
                   </Button>
-                  <Button size="sm" className="bg-primary hover:bg-primary/90 transition-smooth">
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Demo
+                  <Button asChild size="sm" className="bg-primary hover:bg-primary/90 transition-smooth">
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer" aria-label={`Abrir demo de ${project.title}`}>
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      Demo
+                    </a>
                   </Button>
                 </div>
               </div>

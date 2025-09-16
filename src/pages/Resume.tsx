@@ -8,29 +8,108 @@ const Resume = () => {
 
   const experiences = [
     {
-      title: "Desenvolvedor Full Stack",
-      company: "Tech Solutions Ltda",
-      period: "2022 - Presente",
-      location: "São Paulo, SP",
-      description: "Desenvolvimento de aplicações web completas usando PHP, Laravel, JavaScript e MySQL. Responsável por criar dashboards interativos e integrações com APIs externas.",
+      title: "Programador I",
+      company: "Dolp Engenharia",
+      period: "09/2024 - 09/2025",
+      location: "Goiânia - GO	",
+      description: "Desenvolvimento de sistemas utilizando ferramentas de Low-Code PHP, com foco em ScriptCase. Colaborar na análise e desenvolvimento de sistemas conforme as necessidades do negócio. Dar suporte em projetos de desenvolvimento e manutenção de sistemas, aplicandoconhecimentos em PHP, HTML, jQuery, CSS e Bootstrap. Realizar consultas e manipulação de dados em banco de dados MySQL. Aplicar princípios de orientação a objetos no desenvolvimento de soluções. Contribuir proativamente para a resolução de problemas e na absorção de novos conhecimentos.",
       achievements: [
-        "Desenvolveu 15+ aplicações web responsivas",
-        "Reduziu tempo de carregamento em 40% através de otimizações",
-        "Implementou sistema de relatórios automatizados"
+        "Desenvolvimento de Importações a partir de planilhas para modulo de produção",
+        "Desenvolvimento de Importação para modulos Obras e Programação de Obras",
+        "Melhorias aplicando UX na telas de cadastros de programação de obras"
       ]
     },
     {
       title: "Desenvolvedor Web",
-      company: "Digital Agency",
-      period: "2021 - 2022",
-      location: "São Paulo, SP", 
-      description: "Criação de sites institucionais e e-commerces. Foco em design responsivo e otimização para SEO.",
+      company: "Inusitada Marketing para o Agro",
+      period: "11/2022 - 09/2024",
+      location: "Goiânia - GO - Remoto", 
+      description: "Desenvolvimento Web: Criação de sites, landing pages e e-commerces utilizando WordPress, WooCommerce, Laravel e frameworks front-end (HTML, CSS, JavaScript, Bootstrap, GulpJS). Back-end: Programação PHP avançada e implementação de integrações robustas para sistemas e plataformas digitais, utilizando Framework Codeigniter e ScriptCase. Gerenciamento de Servidores: Configuração e administração de servidores de hospedagem, cloud e VPS, incluindo gestão de recursos, otimizações e segurança. SEO e Web Analytics: Estratégias e ferramentas de SEO (Google Search Console, SEMrush, Google Analytics), geração de relatórios detalhados (Google Analytics, Google Data Studio) e acompanhamento de desempenho digital. Integrações e Automação: Implementação de integrações com plataformas como RD Station, Lead Lovers e sistemas de pixel e código (Meta, Google Ads, Google Tag Manager). Planejamento e Gestão: Levantamento de requisitos, planejamento de custos e condução de reuniões e apresentações de projetos para clientes, garantindo alinhamento com expectativas e prazos. Testes e Otimização: Realização de testes A/B para melhorias contínuas em sites e campanhas digitais. Ferramentas e Tecnologias: Design e Prototipação: Experiência com Figma, Adobe Illustrator e Photoshop para criação de interfaces e recursos visuais. Outras Competências: Criação de relatórios analíticos, otimização de campanhas, gestão de projetos e colaboração com equipes multidisciplinares.",
+      achievements: [
+        "Criou 15+ websites responsivos",
+        "Implantei servidor cload para gerenciar sites de clientes"        ,
+        "Integrou sistemas de pagamento online e gestão de lead RD Statio"
+      ]
+    },
+    {
+      title: "Desenvolvedor Web",
+      company: "Otimize Marketing Digital",
+      period: "10/2019 - 10/2022",
+      location: "Goiânia - GO - Remoto", 
+      description: "Responsável pelo desenvolvimento de sites e aplicações web utilizando PHP,WordPress, Laravel, desde o levantamento de requisitos até o planejamento de custos dos projetos.Atuei na programação e gerenciamento de código e pixels nas plataformas Meta, Google Ads, Google Analytics, e Google Tag Manager. Especialista em SEO técnico, com foco no monitoramento de desempenho do site, análise de métricas como tempo de carregamento, taxa de rejeição e tráfego. Realizei configurações de servidores, domínio, DNS, SSL, firewalls e cookies. Além disso, conduzi reuniões com a equipe e apresentações de projetos aos clientes, garantindo a entrega de soluções eficientes e alinhadas às expectativas.",
       achievements: [
         "Criou 25+ websites responsivos",
-        "Melhorou performance de SEO em 60%",
-        "Integrou sistemas de pagamento online"
+        "Implementei TAG Google Manager para genreciamento de pixel de conversão e acompanhamento"        ,
+        "Integrou sistemas de pagamento online e gestão de lead RD Statio"
       ]
-    }
+    },
+    {
+      title: "Web Master",
+      company: "BR Dois Marketing",
+      period: "10/2018 - 09/2029",
+      location: "Goiânia - GO - Remoto", 
+      description: "Desenvolvimeto PHP. Desenvolvedor Wordpress. Desenvolvimeneto ScriptCase. Desenvolvimento de Sites e E-commerce. Levantamento de Requisitos. Planejamento de Custo de Projetos. SEO. Ferramentas de SEO, Search Console. Sem Rush, Google Analytics. Relatorios utilizando google analytics. Relatorios Google Data Studio. Integração Site RD Station,Lead Lovers entre outros. Gestão de Trafego Pago nas Plataformas Meta ADS e Google ADS. Experiência em geração e gerenciamento de codigo e pixel nas plataformas Meta,Google Ads, Google Analytics, Google Tag Manager. Gerenciamento de Servidor de Hospedagem e Cloud. Experiência com FIGMA. Experiência com Adobe illustrator. Experiência com Adobe Photoshop.",
+      achievements: [
+        "Criou 25+ websites responsivos",
+        "Criação de dashboard de trafego pago google ads no Looker Studio",
+        "Integrou sistemas de pagamento online e gestão de lead RD Station"
+      ]
+    },
+    {
+      title: "Gestor de Projetos e Desenvolvedor PHP",
+      company: "Uebb Digital",
+      period: "01/2018 - 08/2019",
+      location: "Goiânia - GO - Remoto", 
+      description: "Contratação PJ Temporaria para projetos especificos. Atuei como gestor de projetos para iniciativas específicas, liderando a implementação de soluções tecnológicas e gerenciando a integração de CRM (Run Run IT). Responsável por conduzir reuniões com clientes e apresentar projetos, garantindo alinhamento com as necessidades do negócio. Também iniciei a implementação de metodologias ágeis no departamento de desenvolvimento. No âmbito técnico, desenvolvi soluções em PHP, utilizando frameworks como CodeIgniter e WordPress, além de trabalhar com tecnologias front-end como CSS, Sass, JS e Angular.",
+      achievements: [
+        "Gerenciamento e Organização de projetos",
+        "Implantaçao de metodologia scrum",
+        "Implantação de RUNRUN para gerenciamento de tarefas"
+      ]
+    },
+    {
+      title: "Desenvolvedor de front-end",
+      company: "Raddar Digital",
+      period: "01/2017 - 10/2017",
+      location: "Goiânia - GO - Presencial", 
+      description: "Contratação PJ Temporaria para projetos especificos. Desenvolvedor Front-end. Desenvolvimento de Sites e Aplicações Web. Utilização de PHP,CSS,Sass, JS, Angular. Levantamento de Requisitos. Planejamento de Custo de Projetos. Desenvolvimento/Programação. Apresentação de Projetos. Reunião com cliente. SEO.",
+      achievements: [
+        "Criou 25+ websites responsivos",
+        "Integração site com crm de vendas de imoveis"        
+      ]
+    }, 
+    {
+      title: "Desenvolvedor de front-end",
+      company: "Raddar Digital",
+      period: "01/2017 - 10/2017",
+      location: "Goiânia - GO - Presencial", 
+      description: "Contratação PJ Temporaria para projetos especificos. Desenvolvedor Front-end. Desenvolvimento de Sites e Aplicações Web. Utilização de PHP,CSS,Sass, JS, Angular. Levantamento de Requisitos. Planejamento de Custo de Projetos. Desenvolvimento/Programação. Apresentação de Projetos. Reunião com cliente. SEO.",
+      achievements: [
+        "Criou 25+ websites responsivos",
+        "Integração site com crm de vendas de imoveis"        
+      ]
+    },
+    {
+      title: "Analista de Sistemas",
+      company: "Hospital Santa Casa e Misercordia",
+      period: "11/2011 - 08/2016",
+      location: "Goiânia - GO - Presencial", 
+      description: "Responsável por analisar e desenvolver projetos de sistemas, incluindo levantamento de requisitos, mapeamento de processos e modelagem de dados. Focado em estudar e implementar soluções alinhadas às regras de negócio. Também realizei análises de desempenho de sistemas implantados, resolução de problemas técnicos, elaboração de manuais, além de executar backups de arquivos e bancos de dados, com expertise em ORACLE e PostgreSQL. Treinamento de Usuarios. Administração de Acesso aos sistema.",
+      achievements: [
+        "Implantação de AD",
+        "Servidor redudante de backup para Banco de Dados Oracle 11g"        
+      ]
+    },
+    {
+      title: "Analista de suporte técnico",
+      company: "Hospital Santa Casa e Misercordia",
+      period: "11/2010 - 11/20111",
+      location: "Goiânia - GO - Presencial", 
+      description: "Suporte a usuários do sistema, suporte e manutenção em redes de telecomunicação, implantação de sistemas de informação e treinamentos para usuários do sistema. Atuar no monitoramento de serviços em servidores, processos, backups e pastas dos ambientes; Atender chamados pela ferramenta da empresa, respeitando os prazos SLA’s; Comprometimento com os usuários internos, respeitando normas e procedimentos da empresa.",      achievements: [
+        "Implantação de sistema de ticket e abertura de OS",
+        "Implantação e treinamento de usuarios no sistema de fila de espera no atendimento. Software Open Source"        
+      ]
+    },  
   ];
 
   const education = [

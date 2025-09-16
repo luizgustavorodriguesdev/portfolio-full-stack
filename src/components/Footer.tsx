@@ -12,7 +12,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="space-y-4">
               <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                Dev Portfolio
+                Luiz Gustavo Gomes Rodrigues
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Desenvolvedor Full Stack especializado em criar soluções digitais inovadoras 
@@ -56,15 +56,15 @@ const Footer = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                   <Mail className="h-4 w-4 text-primary" />
-                  <span>contato@dev.com</span>
+                  <span>contato@luizgustavorodrigues.com.br</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                   <Phone className="h-4 w-4 text-primary" />
-                  <span>+55 (11) 99999-9999</span>
+                  <span>+55 (62) 99226-8584</span>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                   <MapPin className="h-4 w-4 text-primary" />
-                  <span>São Paulo, Brasil</span>
+                  <span>Goiânia - GO, Brasil</span>
                 </div>
               </div>
             </div>

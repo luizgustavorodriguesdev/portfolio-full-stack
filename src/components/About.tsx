@@ -20,7 +20,7 @@ const About = () => {
               <div className="space-y-4">
                 <h3 className="text-2xl font-semibold">Minha Jornada</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Com conhecimento intermediário em desenvolvimento web, tenho experiência sólida em 
+                  Com conhecimento em desenvolvimento web, tenho experiência sólida em 
                   <span className="text-primary font-medium"> PHP, JavaScript e CSS</span>, criando aplicações 
                   robustas e interfaces intuitivas. Trabalho com bancos de dados relacionais e desenvolvo 
                   dashboards interativos usando <span className="text-accent font-medium">Power BI</span>.
@@ -36,7 +36,7 @@ const About = () => {
                   <div className="flex items-center space-x-3">
                     <Calendar className="h-5 w-5 text-primary" />
                     <div>
-                      <p className="font-medium">3+ Anos</p>
+                      <p className="font-medium">5+ Anos</p>
                       <p className="text-sm text-muted-foreground">Experiência</p>
                     </div>
                   </div>
