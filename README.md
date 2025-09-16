@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+<div align="center">
 
-## Project info
+# 🚀 Portfólio — Desenvolvedor Full Stack
 
-**URL**: https://lovable.dev/projects/08db4651-9431-4f13-99ba-56c44ecea166
+![Status](https://img.shields.io/badge/status-ativo-brightgreen?style=for-the-badge)
+![Tech](https://img.shields.io/badge/stack-React%20%2B%20TypeScript%20%2B%20Vite-0ea5e9?style=for-the-badge)
+![CSS](https://img.shields.io/badge/UI-Tailwind%20CSS-38bdf8?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-818cf8?style=for-the-badge)
 
-## How can I edit this code?
+<br/>
 
-There are several ways of editing your application.
+Uma vitrine moderna e responsiva dos meus projetos, habilidades e experiência como **Desenvolvedor Full Stack**. Layout leve, transições suaves e foco na performance.
 
-**Use Lovable**
+</div>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/08db4651-9431-4f13-99ba-56c44ecea166) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Destaques
+- Interface moderna com animações sutis e acessibilidade
+- Seção de projetos com filtro por categoria e links de demo/código
+- Responsivo, rápido e otimizado para SEO
+- Código organizado e fácil de extender
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔗 Demo
+- Site: substitua aqui pelo link de produção quando estiver publicado
+- Exemplo de projeto: Campo Dourado — `https://campodourado.agr.br`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧩 Tecnologias
+- React + TypeScript (Vite)
+- Tailwind CSS + componentes UI
+- Lucide Icons
+- Deploy livre (Vercel/Netlify/Render/GitHub Pages)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🗂️ Estrutura de Pastas (resumo)
+```text
+full-stack/
+  public/
+    favicon.ico
+  src/
+    assets/           # imagens
+    components/       # componentes da UI (Hero, Projects, Skills, ...)
+    pages/            # páginas (Index, Resume, ...)
+    main.tsx          # bootstrap do React
+    index.css         # estilos globais
+  index.html
+  README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Como rodar localmente
+```bash
+# 1) Instale as dependências
+npm install
 
-**Use GitHub Codespaces**
+# 2) Rode o servidor de desenvolvimento
+npm run dev
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# 3) Build de produção
+npm run build
 
-## What technologies are used for this project?
+# 4) Pré-visualizar o build
+npm run preview
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📦 Personalização Rápida
+- Favicon: coloque o arquivo em `public/favicon.ico`
+- Título/SEO: edite `index.html`
+- Projetos: atualize o array em `src/components/Projects.tsx`
+- Cores e tema: ajuste no `tailwind.config.ts`
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/08db4651-9431-4f13-99ba-56c44ecea166) and click on Share -> Publish.
+## 💼 Projetos em Destaque
+- Campo Dourado — WordPress — `https://campodourado.agr.br`
+- OdontoNaves — WordPress + Elementor — `https://odontonaves.com.br/`
+- Solar Materiais — Laravel + Vue.js — `https://solarmateriaisconstrucao.com.br/`
+- SafeTech — Laravel + Vue.js — `https://safe-tech.in/`
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🤝 Contribuições
+Sinta-se à vontade para abrir issues, enviar PRs ou sugerir melhorias.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📬 Contato
+- LinkedIn: https://www.linkedin.com/in/luizgustavogomesrodrigues/
+- Portfólio: https://www.luizgustavorodrigues.com.br
+- Email: contato@luizgustavorodrigues.com.br
+
+---
+
+## 📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
